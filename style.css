@@ -1,0 +1,202 @@
+.main {
+background-color: white;
+top: 20;
+left: 20;
+right: 50;
+bottom: 20;
+margin-right: 20px;
+margin-left: 20px;
+}
+  
+
+
+body {
+    background-color: #deddda;
+    color: rgba(50, 51, 45, 0.856);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.top {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%
+
+}
+
+.box1 {
+    background-color: none;
+    width: 100px;
+    height: 100px;
+    background-image: url(img/logo.png);
+    background-size: contain;
+    background-image: no-repeat;
+    align-content: center;
+}
+
+.box2 {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    background-image: url(./img/menu.gif);
+    background-size: contain;
+    text-decoration: none;
+    background-position: center;
+    top: 100px;
+    align-content: center;
+}
+
+
+.header {
+    background-color: #E9FCFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    FONT-size: 16px;
+    color:  rgba(44, 46, 39, 0.856);
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    vertical-align: middle;
+    padding-top: 10px;
+    position: static;
+}
+
+.navigation {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 20px 10px 10px;
+    spacing: 20px;
+}
+
+.nav {
+    margin: 5px 10px;
+    color: rgba(88, 90, 79, 0.856);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none; /* no underline */;
+    font-weight: normal;
+}
+   
+.nav:hover {
+    text-decoration: underline;
+  	text-decoration-color: rgb(255, 72, 0);
+    text-decoration-thickness: 5px;
+    text-underline-offset: 25px;
+    font-weight: bold;
+}
+   
+
+.food {
+line-height: 3px;
+margin-bottom: 10px;
+color: rgba(57, 59, 51, 0.856);
+list-style-type: none;
+width: 45%;
+position: relative;
+}
+
+li {
+    margin: 30;
+    padding: 0;
+}
+
+.console {
+    margin: 30;
+    margin-top: 20;
+    height: 45;
+    font-size: 14px; 
+    width: 100%  
+}
+
+.line {
+    color: rgba(165, 165, 165, 0.856);
+    width: 100%;
+    position:relative;
+}
+
+.buttons {
+    display: inline-flex;
+    width: 100%;
+    height: 90px;
+    justify-content: center;  
+}
+
+.tutorial:hover {
+    color: white;
+    background-color: rgb(255, 72, 0);
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 14px;
+ 
+}
+
+.tutorial {
+    margin: 30px;
+    margin-top: 5px;
+    font-size: 22px;
+    color:rgba(141, 140, 140, 0.856);
+    text-decoration: none; /* no underline */;
+    padding: 15px;
+}
+
+.ukraine {
+    background-color:#376dac;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-weight:600;
+   padding-top: 20px;
+   height: 40px;
+}
+
+.donate {
+    color: yellow;
+    display: inline;
+}
+
+
+.buttonstable{
+    justify-content: center;
+    position: absolute;
+    left: 47.5%;
+    top: 255px;
+}
+
+td{
+    background-color: #d1f7fd;
+    border-radius: 40px;
+    border-color: rgb(187, 187, 255);
+    border-style:solid;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+td:hover{
+    background-color: #b8d9df;
+    border-color: rgb(167, 167, 226);
+}
+
+td:active{
+    background-color:#92acb1;
+    border-color: rgb(125, 125, 170);
+}
+
+.qty{
+    border-radius: 0px;
+    background-color: white;
+    border-color: black;
+    border-style: 0px;
+    border-width: 0px;
+}
+
+.qty:hover{
+    background-color: white;
+}
+.empty{
+    height:30px;
+    width: 40px;
+}
